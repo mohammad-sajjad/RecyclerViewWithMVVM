@@ -13,7 +13,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activity.RegionList"></activity>
         <activity android:name=".activity.CountryList" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
 
         Handler().postDelayed({
             startActivity(Intent(this,CountryList::class.java))},3000)
+        finish()
     }
 }
